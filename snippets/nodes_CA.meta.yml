@@ -12,6 +12,12 @@ proxies:
   server: 64.74.163.69
   type: ss
 - cipher: aes-256-gcm
+  name: 🇨🇦[www.v2nodes.com] ss-CA-1584...
+  password: eveaaTOb8ji8yntw2Z9yWUG0d6Ir8Ld8m3ymH8THdC5egiTH1mXCiBc0Skr7FibH
+  port: 9443
+  server: yyz-ca-01.blncvpn4u.cc
+  type: ss
+- cipher: aes-256-gcm
   name: 🇨🇦[www.v2nodes.com] ss-CA-1574...
   password: eveaaTOb8ji8yntw2Z9yWUG0d6Ir8Ld8m3ymH8THdC5egiTH1mXCiBc0Skr7FibH
   port: 9443
@@ -48,6 +54,12 @@ proxies:
   server: 51.222.155.113
   type: ss
 - cipher: aes-256-gcm
+  name: '🇨🇦[www.v2nodes.com] ss-CA-1546... #1'
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 51.222.155.32
+  type: ss
+- cipher: aes-256-gcm
   name: 🇨🇦[www.v2nodes.com] ss-CA-1545...
   password: cdBIDV42DCwnfIN
   port: 8119
@@ -65,9 +77,17 @@ proxies:
   port: 445
   server: 51.222.12.127
   type: ss
-- name: 🇨🇦CA_1|1.9MB/s
+- name: 🇨🇦CA_1|1.2MB/s
   port: 9443
-  server: 23.169.224.34
+  server: 198.44.157.27
   skip-cert-verify: true
   tls: true
   type: http
+- client-fingerprint: chrome
+  name: 🇨🇦CA_2|2.7MB/s
+  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+  port: 1009
+  server: ybdkz3y4.zf-mix.9999231.xyz
+  sni: co-8ce91c.9999231.xyz
+  type: anytls
+  udp: true
