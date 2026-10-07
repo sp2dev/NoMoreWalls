@@ -1,1 +1,10 @@
-proxies: []
+proxies:
+- alterId: 2
+  cipher: auto
+  name: 🇨🇳 CN_106
+  network: tcp
+  port: 11268
+  server: goldcnmltyljgfwgov.vip68.wogcnmnnagfwgov.com
+  tls: false
+  type: vmess
+  uuid: 605956ee-544d-308e-8b90-51e67c6ea8da

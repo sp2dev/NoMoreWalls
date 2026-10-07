@@ -18,16 +18,27 @@ proxies:
   sni: d3-de2.cloud-cdn.xyz
   type: trojan
 - cipher: aes-256-cfb
-  name: 🇩🇪DE_5|4.0MB/s
+  name: 🇩🇪DE_2|1.8MB/s
   password: amazonskr05
   port: 443
   server: 18.159.149.158
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: 🇩🇪DE_6|4.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.67.197.81
-  type: ss
-  udp: true
+- alterId: 0
+  cipher: auto
+  name: '🇩🇪 德国 | DEU #8'
+  network: http
+  port: 52080
+  server: 185.212.149.7
+  tls: false
+  type: vmess
+  uuid: ec3c8b97-f308-4fee-aa16-95e2c7595acd
+- alterId: 0
+  cipher: auto
+  name: '🇩🇪 德国 | DEU #11'
+  network: http
+  port: 2053
+  server: 185.212.149.7
+  tls: false
+  type: vmess
+  uuid: aeb3c019-ae83-4677-af97-846baa787ad5
