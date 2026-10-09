@@ -19,16 +19,6 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
-- name: 🇩🇪190889 | ⚡️Telegram = t.me/S...
-  obfs: salamander
-  obfs-password: 1vwbgf5t1k61nxmi
-  password: b967bc328fcf453f18d46518f486283b
-  port: 8397
-  server: 193.42.11.245
-  skip-cert-verify: false
-  sni: 193.42.11.245
-  tls: false
-  type: hysteria2
 - encryption: none
   name: 🇩🇪[www.v2nodes.com] vless-DE-1...
   network: ws
@@ -123,11 +113,49 @@ proxies:
   server: ger2.fytpn.com
   skip-cert-verify: false
   type: trojan
-- name: 🇩🇪DE_1|1.1MB/s
+- name: 🇩🇪DE_1|1.0MB/s
   port: 443
-  server: 31.77.19.92
+  server: 79.76.126.155
   skip-cert-verify: true
-  type: socks5
+  tls: true
+  type: http
+- name: 🇩🇪DE_2|1.6MB/s
+  password: None
+  port: 443
+  server: 149.36.50.157
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_3|3.2MB/s
+  port: 9002
+  server: 158.173.154.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_4|2.3MB/s
+  port: 9443
+  server: 79.127.156.177
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_5|2.1MB/s
+  port: 9002
+  server: 158.173.154.2
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_6|2.6MB/s
+  port: 9002
+  server: 158.173.154.5
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_7|3.2MB/s
+  port: 443
+  server: 149.36.50.129
+  skip-cert-verify: true
+  tls: true
+  type: http
 - alpn:
   - h3
   - h2
@@ -145,17 +173,3 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
-- client-fingerprint: firefox
-  name: '🇩🇪 德国 | DEU #5'
-  network: ws
-  port: 995
-  server: 95.133.247.98
-  servername: love-paris.roxa.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: df275727-c25a-450b-99c3-29e4e6b0b6b9
-  ws-opts:
-    headers:
-      Host: love-paris.roxa.org
-    path: /api/v1
