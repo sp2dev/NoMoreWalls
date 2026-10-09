@@ -27,6 +27,7 @@ proxies:
       Host: fbsv6.guardora.pro
     path: /ws
 - client-fingerprint: random
+  encryption: none
   grpc-opts:
     grpc-service-name: grpc-ru
   name: '🇷🇺[www.v2nodes.com] vless-RU-1... #3'
@@ -54,9 +55,9 @@ proxies:
   port: 5112
   server: 90.156.203.62
   type: ss
-- name: 🇷🇺RU_1|1.9MB/s
-  port: 8443
-  server: 87.242.85.187
+- name: 🇷🇺RU_1|1.0MB/s
+  port: 1446
+  server: 46.29.166.134
   skip-cert-verify: true
   tls: true
   type: http
