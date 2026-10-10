@@ -5,13 +5,6 @@ proxies:
   port: 20006
   server: ss.042.node-for-bigairport.win
   type: ss
-- name: 🇺🇸[www.v2nodes.com] trojan-US-...
-  password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
-  port: 10013
-  server: us2.australiacaregroup.site
-  skip-cert-verify: true
-  sni: us2.australiacaregroup.site
-  type: trojan
 - alterId: 0
   cipher: auto
   name: 🇺🇸 美国|@ripaojiedian

@@ -14,6 +14,23 @@ proxies:
       Host: peekconfig.hamrahfree2.workers.dev
     path: /eyJqdW5rIjoibTBZdXp5cm93NSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzJhMDI6ODk4OjE0Njo2NDo6XSIsIlsyNjAyOmZjNTk6MTE6NjQ6Ol0iLCJbMjYwMjpmYzU5OmIwOjY0OjpdIl19
 - alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: '🇭🇰[www.v2nodes.com] vless-HK #1'
+  network: ws
+  port: 443
+  server: 188.114.96.9
+  servername: IdB8ONMVbntuYT5t7t6cEJfw8vLrb.paGEs.DeV
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 2e305ebe-f6e6-4689-b32f-cd04ab5ff541
+  ws-opts:
+    headers:
+      Host: idb8onmvbntuyt5t7t6cejfw8vlrb.pages.dev
+    path: /vl/9yvcoLdzdOXLUYfH7r5gwJhu1CHrj
+- alpn:
   - h2
   - http/1.1
   client-fingerprint: chrome
@@ -43,6 +60,15 @@ proxies:
     headers:
       Host: lucasjow.us.ci
     path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+- client-fingerprint: chrome
+  name: '🇭🇰[www.v2nodes.com] vless-HK-1... #2'
+  network: ws
+  port: 2083
+  server: 172.67.181.125
+  servername: site.check-looks.space
+  tls: true
+  type: vless
+  uuid: ca608afb-55ff-4f36-9d00-606fedbb30e1
 - client-fingerprint: chrome
   name: '🇭🇰[www.v2nodes.com] vless-HK-1... #3'
   network: ws
@@ -198,6 +224,11 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
+- name: 🇭🇰HK_1|5.7MB/s
+  port: 10808
+  server: 36.155.23.163
+  skip-cert-verify: true
+  type: socks5
 - alterId: 0
   cipher: auto
   name: '🇭🇰 香港 | HKG #1'
