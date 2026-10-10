@@ -7,31 +7,34 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
+- client-fingerprint: chrome
+  name: '🇺🇸[www.v2nodes.com] vless-US-1... #10'
+  port: 10002
+  server: jp123.vatilon.cc
+  servername: jp123.vatilon.cc
+  tls: true
+  type: vless
+  uuid: aec8e5e3-bb81-4b22-8802-0b88c54997b3
+- client-fingerprint: chrome
+  name: '🇺🇸[www.v2nodes.com] vless-US-1... #19'
+  port: 10002
+  server: xjp111-2.vatilon.cc
+  servername: xjp111-2.vatilon.cc
+  tls: true
+  type: vless
+  uuid: aec8e5e3-bb81-4b22-8802-0b88c54997b3
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸[www.v2nodes.com] ss-US-1592...
+  name: 🇺🇸[www.v2nodes.com] ss-US-1593...
   password: 792e0bdb-01db-450c-94c4-925151eb396e
   port: 20006
   server: ss.042.node-for-bigairport.win
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '🇺🇸[www.v2nodes.com] ss-US-1592... #1'
-  password: 792e0bdb-01db-450c-94c4-925151eb396e
-  port: 20006
-  server: ss.043.node-for-bigairport.win
-  type: ss
 - name: 🇺🇸[www.v2nodes.com] trojan-US-...
   password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
-  port: 10003
-  server: r627r8.vatilon.cc
+  port: 10013
+  server: us2.australiacaregroup.site
   skip-cert-verify: true
-  sni: r627r8.vatilon.cc
-  type: trojan
-- name: '🇺🇸[www.v2nodes.com] trojan-US-... #1'
-  password: UX82473651
-  port: 443
-  server: alert-titmouse.rooster465.autos
-  skip-cert-verify: true
-  sni: alert-titmouse.rooster465.autos
+  sni: us2.australiacaregroup.site
   type: trojan
 - alterId: 0
   cipher: auto
@@ -79,168 +82,54 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- encryption: none
-  name: 🇺🇸US_1|3.0MB/s
-  network: ws
-  port: 8880
-  server: 104.16.100.66
-  type: vless
-  udp: true
-  uuid: ba026f72-b6b6-448b-8a8e-39e60e375f5f
-  ws-opts:
-    headers:
-      Host: plain-cell-7c51.415-172.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.139 Safari/537.36
-    path: /pyip=ProxyIP.US.CMLiussss.net
-  xudp: true
-- name: 🇺🇸US_2|1.0MB/s
-  network: ws
-  port: 8880
-  server: 45.12.30.30
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime28.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.132 Safari/537.36
-    path: /
-  xudp: true
-- name: 🇺🇸US_3|3.5MB/s
+- name: 🇺🇸US_1|3.3MB/s
   port: 443
-  server: 23.133.176.14
+  server: 12.202.180.10
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_4|1.6MB/s
+- name: 🇺🇸US_2|1.1MB/s
+  port: 443
+  server: 12.221.146.147
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_3|2.2MB/s
   port: 443
   server: 148.135.10.80
   skip-cert-verify: true
   tls: true
   type: http
-- name: US_speednode_0131
-  password: 'null'
-  port: 9002
-  server: 138.199.35.216
+- name: 🇺🇸US_4|1.8MB/s
+  port: 443
+  server: 198.44.135.27
   skip-cert-verify: true
   tls: true
   type: http
-  udp: true
-  username: 'null'
-- name: 🇺🇸US_6|2.0MB/s
-  port: 9002
-  server: 138.199.35.203
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_7|4.8MB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.212
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸US_8|4.0MB/s
-  password: 'null'
-  port: 9002
-  server: 138.199.35.214
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸US_9|2.3MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.213
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_10|2.8MB/s
-  port: 9443
-  server: 198.44.135.19
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_11|2.7MB/s
+- name: 🇺🇸US_5|2.0MB/s
   port: 443
   server: 167.88.60.242
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_12|1.9MB/s
+- name: 🇺🇸US_6|1.3MB/s
   port: 443
-  server: 64.98.50.100
+  server: 192.227.176.234
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_13|1.2MB/s
+- name: 🇺🇸US_7|2.4MB/s
   port: 443
-  server: 216.107.139.82
-  skip-cert-verify: true
-  sni: 991cc80f13caf81d3426ddebb2da7f49-92ff472ddc24e5b7.apache-iv.com
-  tls: true
-  type: http
-- name: 🇺🇸US_14|2.5MB/s
-  port: 443
-  server: 66.64.100.66
+  server: 68.235.56.51
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_15|1.4MB/s
-  port: 443
-  server: 149.34.248.65
+- name: 🇺🇸US_8|3.2MB/s
+  port: 9002
+  server: 138.199.35.219
   skip-cert-verify: true
-  sni: 149.34.248.65
   tls: true
   type: http
-- encryption: none
-  name: 🇺🇸US_16|2.6MB/s
-  network: ws
-  port: 8880
-  server: 185.148.107.30
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime55.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: ''
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇺🇸US_17|1.0MB/s
-  network: ws
-  password: e20fd145-65f1-4aa3-96be-da0524bbb16e
-  port: 20230
-  server: us003.421421.xyz
-  skip-cert-verify: true
-  sni: www.alibaba.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.181 Safari/537.36
-    path: /
-- encryption: none
-  name: 🇺🇸US_18|1.1MB/s
-  network: ws
-  port: 80
-  server: www.speedtest.net
-  type: vless
-  udp: true
-  uuid: 1460bcd2-4268-4576-914e-184ce8ea9b88
-  ws-opts:
-    headers:
-      Host: cd0ftgj4r79qu6f7nl0ldwptxv.s2gzvugnc7arq-nzwdwavaz.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.67 Safari/537.36
-    path: /vl/nffC3kqp8VnCzGlwYg8kY25u9?ed=2560
-  xudp: true
 - auth: b42d90fa667942aebc734d60
   name: 🇦🇺 澳大利亚 | AUS
   obfs: salamander
@@ -252,179 +141,97 @@ proxies:
   skip-cert-verify: true
   sni: rmgyvpn.rest
   type: hysteria2
-- name: '🇺🇸 美国 | USA #1'
-  network: ws
-  port: 8080
-  server: 104.18.35.86
-  servername: hhlfy.twiladaphne.ndjp.net
-  tls: false
-  type: vless
-  udp: true
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  ws-opts:
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-    path: /sg-melbi
-- client-fingerprint: chrome
-  name: '🇺🇸 美国 | USA #2'
-  network: tcp
-  port: 10002
-  server: rb1211-3.vatilon.cc
-  servername: rb1211-3.vatilon.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: aec8e5e3-bb81-4b22-8802-0b88c54997b3
-  ws-opts:
-    headers:
-      Host: rb1211-3.vatilon.cc
-    path: /
 - alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国 | USA 3
-  port: 23201
-  server: gz2.vatilon.cc
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: aec8e5e3-bb81-4b22-8802-0b88c54997b3
-- auth: aec8e5e3-bb81-4b22-8802-0b88c54997b3
-  name: '🇺🇸 美国 | USA #4'
-  password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
-  port: 10004
-  server: cn42.vatilon.cc
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- client-fingerprint: chrome
-  name: '🇺🇸 美国 | USA #5'
-  network: tcp
-  port: 23202
-  server: gz2.vatilon.cc
-  servername: jp2.australiacaregroup.site
-  tls: true
-  type: vless
-  udp: true
-  uuid: aec8e5e3-bb81-4b22-8802-0b88c54997b3
-  ws-opts:
-    headers:
-      Host: gz2.vatilon.cc
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇺🇸 美国 | USA 6
-  port: 30829
-  server: v29.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国 | USA 7
-  port: 10001
-  server: xjp111-3.vatilon.cc
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: aec8e5e3-bb81-4b22-8802-0b88c54997b3
-- name: '🇺🇸 美国 | USA #8'
-  password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
-  port: 10003
-  server: jp121.vatilon.cc
-  skip-cert-verify: true
-  sni: jp121.vatilon.cc
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: '🇺🇸 美国 | USA #9'
-  network: ws
-  port: 23801
-  server: gz1.polymarket.party
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: aec8e5e3-bb81-4b22-8802-0b88c54997b3
-  ws-opts:
-    headers:
-      Host: us4.australiacaregroup.site
-    path: /vmess
-- auth: aec8e5e3-bb81-4b22-8802-0b88c54997b3
-  name: '🇺🇸 美国 | USA #10'
-  password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
-  port: 23824
-  server: gz2.vatilon.cc
-  skip-cert-verify: true
-  sni: us4.australiacaregroup.site
-  tls: false
-  type: hysteria2
-- auth: aec8e5e3-bb81-4b22-8802-0b88c54997b3
-  name: '🇺🇸 美国 | USA #11'
-  password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
-  port: 10004
-  server: jp2.australiacaregroup.site
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- auth: aec8e5e3-bb81-4b22-8802-0b88c54997b3
-  name: '🇺🇸 美国 | USA #12'
-  password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
-  port: 10004
-  server: jp64.australiacaregroup.site
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- auth: aec8e5e3-bb81-4b22-8802-0b88c54997b3
-  name: '🇺🇸 美国 | USA #13'
-  password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
-  port: 10004
-  server: xjp111-3.vatilon.cc
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国 | USA 14
-  port: 12330
-  server: p05.rghvf.sbs
-  servername: gb.uniquenames.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 68adffea-4146-4f92-b2f9-955cd634c274
-- alpn:
-  - h2
   - http/1.1
+  - h2
   client-fingerprint: firefox
-  encryption: mlkem768x25519plus.native.0rtt.W_AAdj50NNta1or9xzKAkUP0MVxlMK6TfvShgRm9who
-  name: '🇺🇸 美国 | USA #15'
+  name: '🇷🇺 俄罗斯 | RUS #1'
+  network: xhttp
+  port: 2053
+  server: 78.159.246.85
+  servername: fitindoor.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6a2aff19-ff1f-4a13-96c8-a4d8986a9699
+  xhttp-opts:
+    host: fitindoor.net
+    mode: auto
+    path: /api/v1/upload
+    x-padding-bytes: 100-1000
+- client-fingerprint: safari
+  name: '🇷🇺 俄罗斯 | RUS #2'
   network: xhttp
   port: 443
-  server: 167.82.76.31
-  servername: default.ssl.fastly.net
+  server: 5.188.142.15
+  servername: ws.mydocfiles.online
   tls: true
   type: vless
   udp: true
-  uuid: e86d9264-a736-46c3-adcc-f5f0cc088a72
+  uuid: d1004cfe-c279-e865-d865-71964dbdf85d
   xhttp-opts:
-    host: Shhsheuq.global.ssl.fastly.net
+    host: ws.mydocfiles.online
     mode: auto
-    path: /
+    path: /cdn/img/tile/68ff3ccd
+- auth: Q3mAdf68GvbGEGqTAXkWjg
+  name: '🇺🇸 美国 | USA #1'
+  password: Q3mAdf68GvbGEGqTAXkWjg
+  port: 8443
+  server: 173.249.210.76
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: 🇺🇸 美国 | USA 2
+  network: ws
+  password: humanity
+  port: 443
+  server: 162.159.91.211
+  skip-cert-verify: true
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
+- auth: aec8e5e3-bb81-4b22-8802-0b88c54997b3
+  name: '🇺🇸 美国 | USA #3'
+  password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
+  port: 10004
+  server: sg2.australiacaregroup.site
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- alpn:
+  - h2
+  client-fingerprint: unsafe
+  name: '🇺🇸 美国 | USA #4'
+  network: xhttp
+  port: 443
+  server: s3.bamans.uk
+  servername: s3.bamans.uk
+  tls: true
+  type: vless
+  udp: true
+  uuid: 86c0996e-817e-409f-a732-ff9ef94917bd
+  xhttp-opts:
+    host: s3.bamans.uk
+    mode: stream-up
+    path: /3a6b3b038ea34622bd1e13ec5798ab03
+    x-padding-bytes: 100-1000
+- name: 🇺🇸 美国 | USA 6
+  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+  port: 1002
+  server: aw5fat9k.zf-mix.9999231.xyz
+  skip-cert-verify: true
+  sni: iosapps.itunes.apple.com
+  type: anytls
+  udp: true
 - client-fingerprint: unsafe
-  name: '🇺🇸 美国 | USA #16'
+  name: '🇺🇸 美国 | USA #6'
   network: ws
   port: 443
-  server: 104.18.0.181
+  server: 104.18.32.87
   servername: a.cwvps.eu.org
   tls: true
   type: vless
@@ -433,91 +240,31 @@ proxies:
   ws-opts:
     headers:
       Host: a.cwvps.eu.org
-    path: /ws
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国 | USA 17
-  port: 36011
-  server: gz1.polymarket.party
+    path: /ws#/?TELEGRAM--MARAMBASHI--MARAMBASHI?ed=512
+- name: 🇺🇸 美国 | USA 8
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 19000
+  server: anytls2.864106.xyz
   skip-cert-verify: true
-  tls: false
-  type: vmess
+  sni: anytls2.864106.xyz
+  type: anytls
   udp: true
-  uuid: aec8e5e3-bb81-4b22-8802-0b88c54997b3
-- auth: aec8e5e3-bb81-4b22-8802-0b88c54997b3
-  name: '🇺🇸 美国 | USA #18'
-  password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
-  port: 10004
-  server: jp-x2.vatilon.cc
+- name: '🇺🇸 美国 | USA #2'
+  password: humanity
+  port: 443
+  server: 162.159.91.211
   skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国 | USA 19
-  port: 20401
-  server: gz1.polymarket.party
+  sni: www.calmlunch.com
+  type: trojan
+- name: US_speednode_0131
+  password: 'null'
+  port: 9002
+  server: 138.199.35.216
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: aec8e5e3-bb81-4b22-8802-0b88c54997b3
-- alterId: 0
-  cipher: auto
-  name: '🇺🇸 美国 | USA #3'
-  network: tcp
-  port: 23201
-  server: gz2.vatilon.cc
-  tls: false
-  type: vmess
-  uuid: aec8e5e3-bb81-4b22-8802-0b88c54997b3
-- alterId: 2
-  cipher: auto
-  name: '🇺🇸 美国 | USA #6'
-  network: tcp
-  port: 30829
-  server: v29.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: '🇺🇸 美国 | USA #7'
-  network: tcp
-  port: 10001
-  server: xjp111-3.vatilon.cc
-  tls: false
-  type: vmess
-  uuid: aec8e5e3-bb81-4b22-8802-0b88c54997b3
-- alterId: 0
-  cipher: auto
-  name: '🇺🇸 美国 | USA #14'
-  network: tcp
-  port: 12330
-  server: p05.rghvf.sbs
   tls: true
-  type: vmess
-  uuid: 68adffea-4146-4f92-b2f9-955cd634c274
-- alterId: 0
-  cipher: auto
-  name: '🇺🇸 美国 | USA #17'
-  network: tcp
-  port: 36011
-  server: gz1.polymarket.party
-  tls: false
-  type: vmess
-  uuid: aec8e5e3-bb81-4b22-8802-0b88c54997b3
-- alterId: 0
-  cipher: auto
-  name: '🇺🇸 美国 | USA #19'
-  network: tcp
-  port: 20401
-  server: gz1.polymarket.party
-  tls: false
-  type: vmess
-  uuid: aec8e5e3-bb81-4b22-8802-0b88c54997b3
+  type: http
+  udp: true
+  username: 'null'
 - name: US_speednode_0133
   port: 443
   server: fan.365747.xyz
